@@ -15,21 +15,27 @@ public class iPhone extends Telefon{
     public void setMemorie(Integer memorie){
         this.memorie=memorie;
     }
+    
     public int getMemorie() {
         return memorie;
     }
+    
     public void setNrCamere(Integer nrCamere){
         this.nrCamere=nrCamere;
     }
+    
     public Integer getNrCamere() {
         return nrCamere;
     }
+    
     public void setSistemOperare(String sistemOperare){
         this.sistemOperare=sistemOperare;
     }
+    
     public String getSistemOperare() {
         return sistemOperare;
     }
+    
     @Override
     public String toString(){
         return super.toString()+
