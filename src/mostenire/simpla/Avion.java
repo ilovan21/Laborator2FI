@@ -34,6 +34,7 @@ public class Avion extends Vehicul{
     public int getCapacitatePersoane() {
         return capacitatePersoane;
     }
+    
     @Override
     public String toString(){
         return super.toString()+
