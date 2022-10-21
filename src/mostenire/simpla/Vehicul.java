@@ -10,6 +10,7 @@ public class Vehicul {
         this.greutate=greutate;
         this.inaltime=inaltime;
     }
+    
     public Vehicul(float greutate, float inaltime){
         this.greutate=greutate;
         this.inaltime=inaltime;
@@ -22,7 +23,6 @@ public class Vehicul {
     public void setTipul(String tipul) {
         this.tipul = tipul;
     }
-
 
     public void setGreutate(float greutate) {
         this.greutate = greutate;
@@ -39,6 +39,7 @@ public class Vehicul {
     public float getInaltime() {
         return inaltime;
     }
+    
     public String toString(){
         return "Tipul: "+tipul + " Greutate: "+greutate+" Inaltime:  "+inaltime;
     }
