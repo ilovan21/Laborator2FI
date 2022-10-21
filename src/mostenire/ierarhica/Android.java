@@ -14,25 +14,30 @@ public class Android extends Telefon{
     public void setMemorie(Integer memorie){
         this.memorie=memorie;
     }
+    
     public int getMemorie() {
         return memorie;
     }
+    
     public void setModel(String model){
         this.model=model;
     }
+    
     public String getModel() {
         return model;
     }
+    
     public void setSistemOperare(String sistemOperare){
         this.sistemOperare=sistemOperare;
     }
+    
     public String getSistemOperare() {
         return sistemOperare;
     }
+    
     @Override
     public String toString(){
         return super.toString()+
                 " Memorie RAM "+this.memorie+" Model "+this.model+" Sistem de Operare "+ this.sistemOperare;
     }
-
 }
